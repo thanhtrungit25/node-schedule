@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <!-- header.ejs -->
+  <% include header.ejs %>
+  <!-- end header.ejs -->
+  <body>
+    <!-- navbar.ejs -->
+    <% include navbar.ejs %>
+    <!-- end navbar.ejs -->
+    <div class="container app">
+      <% if (!user) { %>
+      <h3>Welcome!</h3>
+      <div class="leader">
+        Please <a href="/login">login</a> to use posts scheduler
+      </div>
+      <% } else { %>
+        <div id="root"></div>
+      <% } %>
+    </div>
+
+    <!-- footer.ejs -->
+    <% include footer.ejs %>
+  </body>
+</html> 
