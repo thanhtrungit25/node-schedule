@@ -1,5 +1,5 @@
 # Clone this project
-$ git clone
+$ git clone https://github.com/thanhtrungit25/node-schedule.git
 # Install dependenciees
 $ npm install
 
@@ -7,6 +7,7 @@ $ npm install
 $ touch default.js
 
 # Config constructure
+```
 {
   "appId" : [YOUR APP ID]",
   "appSecret": [YOUR APP SECRET]",
@@ -14,6 +15,7 @@ $ touch default.js
   "callbackURL" : "https://localhost:8888/login/facebook/callback",
   "scheduler_timezone" : "Asia/Karachi"
 }
+```
 
 # Run app
 - run server
@@ -21,7 +23,7 @@ $ npm run dev-server
 - run client
 $ npm run watch
 
-![schedule login facebook](https://github.com/thanhtrungit25/images/blob/master/schedule_login_fb.png)
-![schedule post create](https://github.com/thanhtrungit25/images/blob/master/schedule_post_create.png)
-![schedule posts](https://github.com/thanhtrungit25/images/blob/master/schedule_posts.png)
+![alt schedule login facebook](https://github.com/thanhtrungit25/assets/blob/master/schedule_login_fb.png)
+![alt schedule post create](https://github.com/thanhtrungit25/assets/blob/master/schedule_post_create.png)
+![alt schedule posts](https://github.com/thanhtrungit25/assets/blob/master/schedule_posts.png)
 
