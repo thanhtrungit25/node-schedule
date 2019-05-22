@@ -18,10 +18,11 @@ $ touch default.js
 ```
 
 # Run app
-- run server
+
+```
 $ npm run dev-server
-- run client
 $ npm run watch
+```
 
 ![alt schedule login facebook](https://github.com/thanhtrungit25/assets/blob/master/schedule_login_fb.png)
 ![alt schedule post create](https://github.com/thanhtrungit25/assets/blob/master/schedule_post_create.png)
